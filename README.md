@@ -1,4 +1,4 @@
-<h1>GIF_search_engine</h1>:octocat:
+<h1>GIF_search_engine :octocat:</h1>
 <h2> Frontend - </h2>
 A gif search engine using Giphy API.
 Technologies used are HTML, CSS and Javascipt. Data format for handling data during request - json (for obvious reasons)
