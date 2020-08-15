@@ -1,0 +1,70 @@
+/*code_by_shreyansh_05*/
+body {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+    background: linear-gradient(to right, #333333 0%, #dd1818 80%)
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+.hright {
+	color: white;
+  float: right;
+  padding-right: 50px;
+}
+.hleft {
+  color: white;
+  float: left;
+  padding-left: 50px;
+}
+a {
+	color: white;
+}
+.container-padding50 {
+	padding-top: 90px;
+}
+
+.container-textinput {
+	width: 80%;
+	display: inline-block;
+	padding: 5px;
+	font-size: 20px;
+	font-family: cursive;
+}
+.container-button {
+  width: 10%;
+  display: inline-block;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+
+.container-image {
+	width: 30%;
+	display: block;
+	float: left;
+	margin-right:3%;
+}
