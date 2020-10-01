@@ -1,5 +1,4 @@
 //code_by_shreyansh_05
-//1. Grab the input
 document.querySelector(".js-userinput").addEventListener('keyup',function(e){
 
     var input = document.querySelector("input").value;
@@ -17,9 +16,6 @@ document.querySelector(".js-go").addEventListener('click',function(){
     passurl(input);
 
 });
-
-
-//2.Load data with API
 function passurl(input){
 
 var url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + input;
@@ -33,8 +29,6 @@ gifcall.addEventListener('load',function(e){
     passval(data);
 });
 }
-
-//3. show me the GIFs
 function passval(data){
     var response = JSON.parse(data);
     console.log(response);
