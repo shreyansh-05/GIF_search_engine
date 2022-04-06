@@ -18,7 +18,7 @@ document.querySelector(".js-go").addEventListener('click',function(){
 });
 function passurl(input){
 
-var url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + input;
+var url = "https://api.giphy.com/v1/gifs/search?api_key=tlVSD7oBwuhlAtaY7iMzCFuiDFNUiqnD&q=" + input;
 
 // AJAX Request
 var gifcall = new XMLHttpRequest();
